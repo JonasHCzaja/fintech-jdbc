@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+body {
+    font-family: "DM Sans", sans-serif;
+    color:#0F262F;
+  }
+  
+.bg-custom {
+	background-color: #0B2521;
+}
+  
+h1 {
+	margin: 50px;
+	text-align: center;
+}
+  
+.navbar-logo {
+	margin-right: 30px;
+}
+
+.register-btn {
+	display: block;
+    margin: 0 auto;
+    background-color: rgb(19, 79, 50);
+}
+
+.register-btn:hover{
+	background-color: rgb(16, 65, 41);
+}
