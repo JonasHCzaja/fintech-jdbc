@@ -115,7 +115,7 @@ CREATE TABLE T_FNT_INVESTIMENTO (
 
 ## 🎓 Contexto Acadêmico
 
-   Este projeto foi desenvolvido como o trabalho do curso de Análise e Desenvolvimento de Sistemas da FIAP. O objetivo é aplicar conceitos de programação orientada a objetos, desenvolvimento web com Java e integração com banco de dados estudados durante o primeiro ano do curso.
+   Este projeto foi desenvolvido como trabalho do curso de Análise e Desenvolvimento de Sistemas da FIAP. O objetivo é aplicar conceitos de programação orientada a objetos, desenvolvimento web com Java e integração com banco de dados estudados durante o primeiro ano do curso.
 
 #
 
