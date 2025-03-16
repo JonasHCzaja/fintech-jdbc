@@ -1,60 +1,55 @@
 # Fintech Project
 
-## 📊 Sobre o Projeto
+## 📊 About the Project
 
-   Este é um sistema de controle de finanças pessoais desenvolvido em Java utilizando Servlets e JDBC para interação com um banco de dados Oracle. O objetivo é permitir que usuários gerenciem suas despesas, ganhos e investimentos de forma eficiente, oferecendo funcionalidades de cadastro, edição, exclusão e visualização.
+   This is a personal finance management system developed in Java using Servlets and JDBC for interaction with an Oracle database. The goal is to allow users to efficiently manage their expenses, income, and investments by providing functionalities for registration, editing, deletion, and viewing.
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-   - Cadastro de usuários e login seguro
+   - User registration and secure login
 
-   - Gerenciamento de investimentos (CRUD completo)
+   - Investment management (full CRUD)
 
-   - Controle de sessões com filtros de autenticação
+   - Session control with authentication filters
 
-   - Validação de usuários com integração ao banco de dados
+   - User validation with database integration
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-   - Java como linguagem principal para o desenvolvimento da aplicação.
+ - **Java** as the main programming language for application development.
 
-   - Servlets para controle da lógica de negócios e gerenciamento de requisições HTTP.
+- **Servlets** for business logic control and HTTP request management.
 
-   - JDBC para conexão e manipulação de dados em um banco Oracle.
+- **JDBC** for connection and data manipulation in an Oracle database.
 
-   - Oracle Database para persistência de dados
+- **Oracle Database** for data persistence.
 
-   - Bootstrap para o design responsivo das páginas web
+- **Bootstrap** for responsive web page design.
 
-   - HTML/CSS/JSP para a interface do usuário
+- **HTML/CSS/JSP** for the user interface.
 
-## 🎯 Estrutura do Projeto
+## 🎯 Project Structure
 
-   - bean: Classes de modelo representando entidades do sistema (ex: Usuario, Investimento).
+- **bean**: Model classes representing system entities (e.g., `Usuario`, `Investimento`).
 
-   - dao: Implementação do padrão DAO para interação com o banco de dados.
+- **dao**: Implementation of the DAO pattern for database interaction.
 
-   - controller: Servlets responsáveis pelo controle de requisições e respostas.
+- **controller**: Servlets responsible for request and response handling.
 
-   - filter: Filtros de segurança para controle de acesso.
+- **filter**: Security filters for access control.
 
-   - singleton: Gerenciamento da conexão com o banco de dados.
+- **singleton**: Database connection management.
 
-## ⚡ Como Executar o Projeto
+## ⚡ How to Run the Project
 
-   1. Clone o repositório:
+1. Clone the repository:```git clone https://github.com/JonasHCzaja/fintech-jdbc.git```
+2. Import the project into a Java-compatible IDE (IntelliJ, Eclipse, etc.).
+3. Configure the Oracle database and update the credentials in ConnectionManager.
+4. Run the server (Apache Tomcat recommended).
 
-   2. git clone https://github.com/JonasHCzaja/fintech-jdbc.git
+## 📂 Database Scripts
 
-   3. Importe o projeto em uma IDE compatível com Java (IntelliJ, Eclipse, etc).
-
-   4. Configure o banco de dados Oracle e atualize as credenciais no ConnectionManager.
-
-   5. Execute o servidor (Apache Tomcat recomendado).
-
-## 📂 Scripts do Banco de Dados
-
-Crie a tabela de usuários e investimentos no Oracle:
+Create the Users and Investments tables in Oracle:
 
 ```sql
 
@@ -113,11 +108,11 @@ CREATE TABLE T_FNT_INVESTIMENTO (
 
 ```
 
-## 🎓 Contexto Acadêmico
+## 🎓 Academic Context
 
-   Este projeto foi desenvolvido como trabalho do curso de Análise e Desenvolvimento de Sistemas da FIAP. O objetivo é aplicar conceitos de programação orientada a objetos, desenvolvimento web com Java e integração com banco de dados estudados durante o primeiro ano do curso.
+   This project was developed as part of the Analysis and Systems Development course at FIAP. The objective is to apply concepts of object-oriented programming, web development with Java, and database integration studied during the first year of the course.
 
 #
 
-Desenvolvido por JonasHCzaja.
+Developed by **JonasHCzaja**.
 
